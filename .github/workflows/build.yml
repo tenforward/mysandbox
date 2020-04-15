@@ -18,3 +18,6 @@ jobs:
         ./autogen.sh
         ./configure
         make
+
+    - name: run
+      run: ./helloworld
