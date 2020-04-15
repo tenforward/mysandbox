@@ -3,6 +3,7 @@
 
 AC_PREREQ([2.69])
 AC_INIT([helloworld], [0.1], [tenforward@example.com])
+AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([helloworld.c])
 AC_CONFIG_HEADERS([config.h])
 
